@@ -1,6 +1,5 @@
 '''
 Eric Zair
-Assignment 3
 RSA.py
 Description:	This file contains a class for RSA encryption.
 		Give the user the option to encrypt or decrypt a file.
