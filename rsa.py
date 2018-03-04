@@ -2,9 +2,8 @@
 Eric Zair
 Assignment 3
 RSA.py
-Dr.Gurajala
 Description:	This file contains a class for RSA encryption.
-				Give the user the option to encrypt or decrypt a file.
+		Give the user the option to encrypt or decrypt a file.
 '''
 
 import random
