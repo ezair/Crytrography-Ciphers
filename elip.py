@@ -3,7 +3,7 @@ Author:	Eric Zair
 File:	eliptical_curve_points.py
 Descriptions:	Calculates all the points
 				of an eliptical curve
-				of given a, b, and p values.
+				of given a, b, and r values.
 '''
 
 
