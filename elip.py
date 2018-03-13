@@ -3,7 +3,7 @@ Author:	Eric Zair
 File:	eliptical_curve_points.py
 Descriptions:	Calculates all the points
 				of an eliptical curve
-				of given a, b, and r values.
+				of given a, b, and p values.
 '''
 
 
@@ -52,8 +52,6 @@ def printPoints(points):
 	for point in points:
 		print "\t", point
 
-	#for i in range (len(points)-1):
-	#	print "\t(" + str(points[i][0]) + ", " + str(points[i+1][0]) + ")"
 
 def main():
 	a = int(raw_input("Enter A value: "))
