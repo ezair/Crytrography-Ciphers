@@ -1,9 +1,6 @@
 '''
 Eric Zair
-Hw 3
-Cryptography
-Dr.Gurajala
-
+squares.py
 Description: This program calculates the squares
 			 of a given p, q, and n value
 '''
