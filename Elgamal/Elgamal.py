@@ -87,6 +87,7 @@ def encrypt(filename):
 	key_file.write("\n\ng = " + str(g))
 	key_file.write("\n\ng^b = " + str(bob_public_key))
 	key_file.close()
+	
 	#Write to the encrypted file.
 	encrypted_file = open(filename + ".encrypt", 'w')
 	with open(filename, 'r') as file:
