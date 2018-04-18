@@ -13,7 +13,7 @@ nameOfFile.keys contains ALL of the keys you will need and ever will need to dec
 
 __DECRYPTION__
 If you enter 2 for Decryption, you are promted to enter the name of the file you want to decrypt(as a string),
-the prime P, and the private key g^(ab).
+the prime P as an integer, and the private key b as a integer.
 All of the these keys are located in the nameOfFile.keys file.
 Copy them and paste them for decryption.
 The decrypted file will be called nameOfFile.decrypt
