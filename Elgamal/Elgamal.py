@@ -98,6 +98,8 @@ def encrypt(filename):
 				gb = pow(g, a, b)
 				encrypted_file.write(str(ord(m) * private_key) + " , " + str(ga) + "\n")
 	encrypted_file.close()
+
+
 #Decrypt the content of any file (file must have also been encrypted with this program)
 #parameters:
 #			int p (random prime that all keys are modded off of)
@@ -113,6 +115,8 @@ def decrypt(filename, b, p):
 			private_key = pow(ga, b, p)
 			m = int(c.split(" , ")[0]) * extendedEgcd(private_key, p) % p
 			decrypt_file.write(chr(m))
+
+			
 #___________________________________________________________________________________
 def main():
 	option = int(raw_input("(1)Encrypt\n(2)Decrypt\nSelect an option: "))
