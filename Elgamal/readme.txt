@@ -21,4 +21,4 @@ It's as simple as that.
 
 
 __NOTE__:
-  The format of the encrypted file is just every single character encrypted individually and on their own seperate line.
+  The format of the encrypted file is (cipher , g^a)
