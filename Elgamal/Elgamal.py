@@ -67,7 +67,7 @@ def generateGenerator(p):
 	return g
 
 
-#Encrypt any give file.
+#Encrypt any given file.
 #parameters: string filename(name of the file you want to decrypt)
 #return type: void
 def encrypt(filename):
