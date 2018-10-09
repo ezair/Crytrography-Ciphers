@@ -144,7 +144,7 @@ rsa = RSA()
 
 #decrypt
 def decrypt():
-	private_key = (int(raw_input("Enter d (just copy and paste it from encryptedKeyfile): ")), int(raw_input("Enter n (just copy and paste it encryptedKey file): ")))
+	private_key = (int(raw_input("Enter d (just copy and paste it from encryptedKeyfile): ")), int(raw_input("Enter n (just copy and paste it from the encryptedKey file): ")))
 	encryptedtext_filename = raw_input("Enter the name of the encrypted text file: ")
 	decrypted_filename = raw_input("Enter the name of the file you would like to write the decryption to: ")
 	rsa.decrypt(encryptedtext_filename, decrypted_filename, private_key)
